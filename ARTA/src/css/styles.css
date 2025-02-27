@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(../images/bgLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border: 3px solid #24e41e;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+}
+
+.title h1{
+    font-size: 50px;
+    text-align: center;
+    color: #24e41e;
+}
+
+.title h3{
+    font-size: 20px;
+    text-align: center;
+    color: #0007d6;
+}
+
+.title p{
+    font-size: 12px;
+    text-align: center;
+    color: #e2e2e2;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #838383;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+    color: #fff;
+}
+
+.input-container img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+}
+
+.input-container a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    margin: 90px;
+}
+
+.input-container a:hover{
+    color: #24e41e;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #24e41e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit-button:hover {
+    background-color: #08d401;
+}
+
+.register-link p {
+    font-size: 16px;
+    color: #fff;
+    margin: 45px;
+}
+
+.register-link p a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.register-link p a:hover {
+    color: #24e41e;
+    font-style: italic;
+}
